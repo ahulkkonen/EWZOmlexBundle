@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "symfony/framework-bundle": "2.*",
+        "symfony/framework-bundle": ">=2.8",
         "excelwebzone/omlex": "dev-master"
     },
     "autoload": {
