@@ -26,7 +26,7 @@ class EWZOmlexExtension extends Extension
         $loader->load('services.xml');
 
         if (isset($config['providers'])) {
-            $container->getDefinition('ewz_omlex.oembed')->replaceArgument('providers', $config['providers']);
+            $container->getDefinition('ewz_omlex.oembed')->replaceArgument('$providers', $config['providers']);
         }
     }
 }

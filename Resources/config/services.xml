@@ -9,10 +9,10 @@
     </parameters>
 
     <services>
-        <service id="ewz_omlex.oembed" class="%ewz_omlex.oembed.class%">
-            <argument key="url">null</argument>
-            <argument key="endpoint">null</argument>
-            <argument key="providers" type="collection"/>
+        <service id="ewz_omlex.oembed" class="%ewz_omlex.oembed.class%" autowire="false">
+            <argument key="$url">null</argument>
+            <argument key="$endpoint">null</argument>
+            <argument key="$providers" type="collection" />
         </service>
     </services>
 </container>
